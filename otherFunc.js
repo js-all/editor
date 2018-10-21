@@ -11,3 +11,4 @@ String.prototype.toFirstLetterUpperCase = function() {
         return this;
     }
 }
+

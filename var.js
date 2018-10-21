@@ -1,6 +1,8 @@
 function v() {
 document.body.style = `--window-width: ${window.innerWidth}px;`+
                       `--window-height: ${window.innerHeight}px;`+
+                      `--code-height: ${window.innerHeight - 70}px;`+
+                      `--char-size: ${(data.char.size)}px;`+
                       colorV();
 }
 function colorV() {

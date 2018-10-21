@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 #editor {
     width:var(--window-width);
     height: var(--window-height);
@@ -5,5 +6,33 @@
     position: absolute;
     top:0;
     left:0;
-
+    display: flex;
+    flex-direction: column;;
+}
+#code {
+    background-color: var(--color-bg-code);
+    height: var(--code-height);
+    margin-top: 70px;
+    font-size: var(--char-size);
+    border:none;
+    color: var(--color-code-basic);
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+#code:focus {
+    outline-color: transparent;
+}
+.thum {
+    height: var(--char-size);
+    width:4px;
+    background-color: var(--color-bg-thum);
+    animation: th 1s linear 0 infinite;
+}
+@keyframes th {
+    0%,50% {
+        visibility: visible;
+    }
+    50%,100% {
+        visibility: hidden;
+    }
 }
