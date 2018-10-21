@@ -1,0 +1,9 @@
+#editor {
+    width:var(--window-width);
+    height: var(--window-height);
+    background-color: var(--color-bg-editor);
+    position: absolute;
+    top:0;
+    left:0;
+
+}
